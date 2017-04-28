@@ -4,7 +4,7 @@
     <router-view></router-view>
   </div>
 </template>
-
+<style lang="scss" src="./uikit_scss/theme.scss"></style>
 <script>
 export default {
   name: 'app'

@@ -1,0 +1,9 @@
+$global-link-color: #DA7D02;
+$global-primary-background: #8f8f15;
+
+@import "~uikit/src/scss/variables-theme.scss";
+@import "~uikit/src/scss/mixins-theme.scss";
+
+@mixin hook-card() { color: #000; }
+
+@import "~uikit/src/scss/uikit-theme.scss";
