@@ -2,11 +2,8 @@
       <div id="app" >
         <navigation></navigation>
         <div class="uk-section uk-section-small uk-flex uk-flex-middle uk-text-center" uk-height-viewport="offset-top: true; offset-bottom: true">
-            <div class="uk-width-1-1">
-                <div class="uk-container">
-    
+            <div class="uk-width-1-1 uk-height-1-1 uk-container">
                   <router-view></router-view>
-                </div>
             </div>
         </div>
         <div class="uk-section-small">
