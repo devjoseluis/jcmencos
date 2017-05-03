@@ -7,8 +7,11 @@ import router from './router'
 import UIkit from 'uikit';
 import Icons from 'uikit/dist/js/uikit-icons';
 
+// import IconsCustom from './uikit_js/uikit-icons';
+
 // loads the Icon plugin
 UIkit.use(Icons);
+// UIkit.use(IconsCustom);
 
 // components can be called from the imported UIkit reference
 // UIkit.notification('Hello world.');
@@ -21,6 +24,13 @@ Vue.config.productionTip = false
 router.afterEach(route => {
 	document.title = route.meta.title;
 })
+
+//Components
+
+// Vue.component('navigation', {
+// 	template: 'components/Navigation.vue'
+// });
+
 
 /* eslint-disable no-new */
 new Vue({

@@ -1,4 +1,14 @@
+@import "./fonts/fonts.scss";
+
 $navbar-dropdown-padding: 15px;
+$navbar-dropdown-margin: 0px;
+
+$base-body-font-family: "AmericanTypewriter", Arial, sans-serif;
+$base-heading-font-family: "AmericanTypewriter", Arial, sans-serif;
+$base-code-font-family: "AmericanTypewriter", Courier, serif;
+$navbar-nav-font-family: "AmericanTypewriter", Arial, sans-serif;
+
+$global-font-family: "AmericanTypewriter", Arial, sans-serif;
 
 @import "~uikit/src/scss/variables-theme.scss";
 @import "~uikit/src/scss/mixins-theme.scss";
@@ -6,3 +16,11 @@ $navbar-dropdown-padding: 15px;
 @mixin hook-card() { color: #000; }
 
 @import "~uikit/src/scss/uikit-theme.scss";
+
+// #navigation{
+// 	.uk-navbar{
+// 		.uk-navbar-nav{
+// 			text-align: center;
+// 		}
+// 	}
+// }

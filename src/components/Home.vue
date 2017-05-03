@@ -1,12 +1,17 @@
 <template>
   <div class="home">
-    <h1>{{ msg }}</h1>
-  
-
-  <div class="uk-container">
-      <div class="uk-card uk-card-body uk-card-primary">
-          <h3 class="uk-card-title">Example headline</h3>
-          <button class="uk-button uk-button-default" title="Hello World" uk-tooltip>Hover</button>
+    <div class="uk-child-width-1-4@s" uk-grid>
+      <div>
+          <div class="uk-height-1-1 uk-card uk-card-default uk-card-body uk-flex uk-flex-center uk-flex-middle uk-text-capitalize">Weddings</div>
+      </div>
+      <div>
+          <div class="uk-height-1-1 uk-card uk-card-default uk-card-body uk-flex uk-flex-center uk-flex-middle uk-text-capitalize">Food</div>
+      </div>
+      <div>
+          <div class="uk-height-1-1 uk-card uk-card-default uk-card-body uk-flex uk-flex-center uk-flex-middle uk-text-capitalize">Artwork</div>
+      </div>
+      <div>
+          <div class="uk-height-1-1 uk-card uk-card-default uk-card-body uk-flex uk-flex-center uk-flex-middle uk-text-capitalize">Portfolio</div>
       </div>
   </div>
   </div>
@@ -17,7 +22,7 @@ export default {
   name: 'home',
   data () {
     return {
-      msg: 'JC Mencos Photography'
+      msg: 'EXAMPLE'
     }
   }
 }
