@@ -1,12 +1,12 @@
 <template>
       <div id="app" >
         <navigation></navigation>
-        <div class="uk-section uk-section-small uk-flex uk-flex-middle uk-text-center" uk-height-viewport="offset-top: true; offset-bottom: true">
+        <div class="uk-section uk-section-small uk-container uk-container-small uk-flex uk-flex-middle uk-text-center uk-padding-remove" uk-height-viewport="offset-top: true; offset-bottom: true">
             <div class="uk-width-1-1 uk-height-1-1 uk-container">
                   <router-view></router-view>
             </div>
         </div>
-        <div class="uk-section-small">
+        <div class="uk-section-small uk-container uk-container-small">
             <div class="uk-container uk-flex uk-text-center uk-position-relative">
                 <span class="uk-flex-inline uk-flex-auto uk-flex-left">Copyright © jcmencos photography 2016.  All rights reserved.</span>
                 <ul class="uk-subnav uk-flex-auto uk-flex-inline uk-flex-right uk-margin-remove-top" uk-margin>

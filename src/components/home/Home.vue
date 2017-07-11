@@ -1,23 +1,23 @@
 <template>
   <div class="home uk-width-1-1 uk-height-1-1">
     <div class="uk-child-width-1-4@s uk-height-1-1 uk-flex">
-      <a href="#" class="uk-height-1-1 uk-flex uk-flex-center uk-flex-middle uk-inline-clip uk-transition-toggle weddings">
+      <a href="#" class="uk-background-cover uk-height-1-1 uk-flex uk-flex-center uk-flex-middle uk-inline-clip uk-transition-toggle weddings">
         <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay">
             <p class="uk-h3 uk-text-uppercase uk-margin-remove">Weddings</p>
         </div>
       </a>
-      <a href="#" class="uk-height-1-1 uk-flex uk-flex-center uk-flex-middle uk-inline-clip uk-transition-toggle food">
-        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay">
+      <a href="#" class="uk-background-cover uk-height-1-1 uk-flex uk-flex-center uk-flex-middle uk-inline-clip uk-transition-toggle food">
+        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
           <p class="uk-h3 uk-text-uppercase uk-margin-remove uk-text-uppercase">Food</p>
         </div>
       </a>
-      <a href="#" class="uk-height-1-1 uk-flex uk-flex-center uk-flex-middle uk-inline-clip uk-transition-toggle artwork">
-        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay">
+      <a href="#" class="uk-background-cover uk-height-1-1 uk-flex uk-flex-center uk-flex-middle uk-inline-clip uk-transition-toggle artwork">
+        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
           <p class="uk-h3 uk-text-uppercase uk-margin-remove uk-text-uppercase">Artwork</p>
         </div>
         </a>
       <a href="#" class="uk-background-cover uk-height-1-1 uk-flex uk-flex-center uk-flex-middle uk-inline-clip uk-transition-toggle portfolio">
-        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay">
           <p class="uk-h3 uk-text-uppercase uk-margin-remove uk-text-uppercase">Portfolio</p>
         </div>
       </a>
@@ -65,8 +65,15 @@ a{
 }
 
 .portfolio{
-  // background-color: beige;
   background-image: url('./portfolio.jpg');
-  // background-image: require('./portfolio.jpg');
+}
+.artwork{
+  background-image: url('./artwork.jpg');
+}
+.food{
+  background-image: url('./food.jpg');
+}
+.weddings{
+  background-image: url('./weddings.jpg');
 }
 </style>

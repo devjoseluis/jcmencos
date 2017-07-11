@@ -54,7 +54,7 @@ export default {
 
 <style lang="scss" scoped>
 	#navigation{
-		margin-bottom: 45px;
-	    margin-top: 45px;
+		margin-bottom: 40px;
+	    margin-top: 40px;
 	}
 </style>
