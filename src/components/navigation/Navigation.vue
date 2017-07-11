@@ -1,5 +1,5 @@
 <template>
-<div class="uk-container uk-text-center uk-position-relative">
+<div class="uk-container uk-container-small uk-text-center uk-position-relative">
 	<nav id="navigation" class="uk-navbar-container uk-navbar-transparent" uk-navbar>
         <div class="uk-navbar-left">
         	<a href="" class="uk-navbar-item uk-logo">
